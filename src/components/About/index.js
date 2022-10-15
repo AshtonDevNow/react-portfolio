@@ -3,12 +3,16 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faAngular,
+  faBootstrap,
   faCss3,
+  faDocker,
   faGitAlt,
+  faGithub,
   faHtml5,
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase, faSheqel } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   // Below is when I can get the useState effect to work.  Need to get
@@ -44,7 +48,7 @@ const About = () => {
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
-            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
           </div>
           <div className="face2">
             <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -53,7 +57,7 @@ const About = () => {
             <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
           </div>
           <div className="face4">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            <FontAwesomeIcon icon={faDatabase} color="#Black" />
           </div>
           <div className="face5">
             <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
