@@ -83,6 +83,14 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <div className="info-map">
+        Ashton
+        <br />
+        Country
+        <br />
+        The location
+        <span>ashtondevnow@outlook.com</span>
+      </div>
       <Loader type="pacman" />
     </div>
   )
