@@ -2,16 +2,43 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState } from 'react'
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-
+  const [letterClass] = useState('text-animate')
   // Can't get this effect to work
   // useEffect(() => {
   //   return setTimeout(() => {
   //     setLetterClass('text-animate-hover')
   //   }, 3000)
   // }, [])
+  // We can prevent blank screen by putting () after the object to allow multiple hooks.
+  // Good to keep in mind we focused on keeping useRef over useEffect to priortise core function.
+  const form = useRef()
+  // Helps refer to the emailjs service
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_20y02dd',
+        'template_oy7pjl5',
+        form.current,
+        '3xVDtnXovUkDvKJex'
+      )
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          // avoids reloading the screen
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+  }
 
   return (
     <div className="container contact-page">
@@ -25,13 +52,13 @@ const Contact = () => {
         </h1>
         <p>This is to have content about best contact.</p>
         <div className="contact-form">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <ul>
-              <li>
-                <input type="text" name="name" placeholder="name" required />
+              <li className="half">
+                <input type="text" name="name" placeholder="Name" required />
               </li>
-              <li>
-                <input type="text" name="email" placeholder="Email" required />
+              <li className="half">
+                <input type="email" name="email" placeholder="Email" required />
               </li>
               <li>
                 <input
@@ -50,7 +77,7 @@ const Contact = () => {
                 ></textarea>
               </li>
               <li>
-                <input type="submit" className="flat-button" value="SEND" />
+                <input type="submit" className="flat-button" value="Send" />
               </li>
             </ul>
           </form>
