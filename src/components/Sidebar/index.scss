@@ -81,12 +81,6 @@
       }
     }
 
-    a.portfolio-link {
-      &::after {
-        content: 'PORTFOLIO';
-      }
-    }
-
     a.contact-link {
       &::after {
         content: 'CONTACT';
