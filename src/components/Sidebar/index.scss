@@ -75,9 +75,16 @@
         }
       }
     }
+
     a.about-link {
       &::after {
         content: 'ABOUT';
+      }
+    }
+
+    a.portfolio-link {
+      &::after {
+        content: 'PORTFOLIO';
       }
     }
 
