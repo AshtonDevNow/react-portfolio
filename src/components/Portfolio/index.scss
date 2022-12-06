@@ -10,4 +10,15 @@
     margin-left: 100px;
     margin-top: 100px;
   }
+
+  h2.portfolio-page {
+    font-family: 'Helvetica Neue';
+    color: #ffd700;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.6;
+  }
 }

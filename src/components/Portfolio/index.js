@@ -17,6 +17,13 @@ const Portfolio = () => {
               idx={15}
             />
           </h1>
+          <p>Here is and overview of the projects.</p>
+
+          <div className="item">
+            <img src="../../assets/images/football.png" alt="" />
+            <h2 className="portfolio-page">Bordem Bakery</h2>
+          </div>
+
           {/* <div>{renderPortfolio()}</div> */}
         </div>
       </div>
