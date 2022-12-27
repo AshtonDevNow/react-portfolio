@@ -11,8 +11,11 @@ function ProjectDisplay() {
     <div className="project">
       <h1> {project.name}</h1>
       <img src={project.image} />
-      <p>
+      <h2>
         <b>Skills:</b> {project.skills}
+      </h2>
+      <p>
+        <b>Description:</b> {project.description}
       </p>
     </div>
   )
