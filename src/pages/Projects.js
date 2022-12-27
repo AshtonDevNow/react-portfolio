@@ -3,6 +3,7 @@ import ProjectItem from './ProjectItem'
 import { ProjectList } from '../assets/helpers/ProjectList'
 
 import '../components/Style/Projects.css'
+import Loader from 'react-loaders'
 
 function Projects() {
   return (
@@ -14,6 +15,7 @@ function Projects() {
             <ProjectItem id={idx} name={project.name} image={project.image} />
           )
         })}
+        <Loader type="pacman" />
       </div>
     </div>
   )
