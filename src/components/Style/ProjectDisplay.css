@@ -8,17 +8,24 @@
 }
 
 .project h1 {
+  display: flex;
+  position: relative;
   margin-top: 50px;
   color: #3e497a;
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 500px;
   border-radius: 10px;
 }
 
-.project p {
+.project h2 {
   font-size: 40px;
+  color: #3e497a;
+}
+
+.project p {
+  font-size: 30px;
   color: #3e497a;
 }
 

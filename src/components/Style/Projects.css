@@ -6,6 +6,13 @@
   align-items: center;
   flex-direction: column;
 }
+
+.projects h1 {
+  font-size: 53px;
+  color: #ffd700;
+  font-family: 'Coolvetica';
+  font-weight: 400;
+}
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
