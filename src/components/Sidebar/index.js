@@ -14,20 +14,21 @@ import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
 const Sidebar = () => {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(false)
 
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="/" onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="Ashton" />
       </Link>
-      <nav className={showNav ? 'mobile-show' : ''>
+      <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
-        exact="true"
-        activeclassname="active"
-        to="/"
-        onClick={() => setShowNav (false)}>
+          exact="true"
+          activeclassname="active"
+          to="/"
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
@@ -35,17 +36,17 @@ const Sidebar = () => {
           activeclassname="active"
           className="about-link"
           to="/about"
-                  onClick={() => setShowNav (false)}>
-                    <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"
           activeclassname="active"
           className={'portfolio-link'}
           to="/portfolio"
-                onClick={() => setShowNav (false)}>
-
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
 
@@ -54,8 +55,8 @@ const Sidebar = () => {
           activeclassname="active"
           className={'contact-link'}
           to="/contact"
-                onClick={() => setShowNav (false)}>
-
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
@@ -88,7 +89,8 @@ const Sidebar = () => {
         icon={faBars}
         color="#ffd700"
         size="3x"
-        className="hamburger-icon" />
+        className="hamburger-icon"
+      />
     </div>
   )
 }
