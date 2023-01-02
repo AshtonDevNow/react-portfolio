@@ -53,10 +53,6 @@
         &:after {
           opacity: 1;
         }
-
-        &.mobile-show {
-          display: block;
-        }
       }
 
       &:after {
@@ -113,47 +109,56 @@
     list-style: none;
     text-align: center;
     margin: 0;
-  }
 
-  li {
-    a {
-      padding: 7px 0;
-      display: block;
-      font-size: 15px;
-      line-height: 16px;
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
 
-      &:hover svg {
-        color: #ffd700;
+        &:hover svg {
+          .anchor-icon {
+            color: #ffd700;
+          }
+        }
       }
     }
   }
-}
 
-.hamburger-icon {
-  display: none;
-}
+  .hamburger-icon,
+  .close-icon {
+    display: none;
+  }
 
-@media screen and (max-width: 1200px) {
-  .nav-bar {
-    background: transparent;
-    position: initial;
-    height: auto;
-    min-height: auto;
+  @media screen and (max-width: 1200px) {
+    .nav-bar {
+      background: transparent;
+      position: initial;
+      height: auto;
+      min-height: auto;
 
-    ul,
-    nav {
-      display: none;
-    }
+      ul,
+      nav {
+        display: none;
+      }
 
-    nav {
-      display: block;
-      width: 100%;
-      background: #181818;
-      top: 0;
-      left: 0;
-      position: fixed;
-      z-index: 2;
-      margin: 0;
+      nav {
+        display: block;
+        width: 100%;
+        background: #181818;
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 2;
+        margin: 0;
+        z-index: 2;
+        position: fixed;
+      }
+
+      &.mobile-show {
+        display: block;
+      }
 
       a {
         display: flex;
@@ -171,13 +176,14 @@
       a svg {
         opacity: 1 !important;
       }
-
-      .hamburger-icon {
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-      }
+    }
+    .hamburger-icon,
+    .close-icon {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: block;
     }
   }
 }
