@@ -23,6 +23,7 @@
     }
   }
   nav {
+    display: block;
     text-align: center;
     position: absolute;
     height: 210px;
@@ -53,10 +54,6 @@
         &:after {
           opacity: 1;
         }
-
-        &.mobile-show {
-          display: block;
-        }
       }
 
       &:after {
@@ -69,6 +66,7 @@
         width: 100%;
         text-align: center;
         opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
 
@@ -113,23 +111,27 @@
     list-style: none;
     text-align: center;
     margin: 0;
-  }
 
-  li {
-    a {
-      padding: 7px 0;
-      display: block;
-      font-size: 15px;
-      line-height: 16px;
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        color: #4d4d4e;
+      }
 
       &:hover svg {
-        color: #ffd700;
+        .anchor-icon {
+          color: #ffd700;
+        }
       }
     }
   }
 }
 
-.hamburger-icon {
+.hamburger-icon,
+.close-icon {
   display: none;
 }
 
@@ -146,14 +148,18 @@
     }
 
     nav {
-      display: block;
       width: 100%;
-      background: #181818;
       top: 0;
       left: 0;
-      position: fixed;
-      z-index: 2;
+      background: #181818;
+      height: 100%;
       margin: 0;
+      z-index: 2;
+      position: fixed;
+
+      &.mobile-show {
+        display: block;
+      }
 
       a {
         display: flex;
@@ -171,13 +177,14 @@
       a svg {
         opacity: 1 !important;
       }
-
-      .hamburger-icon {
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-      }
+    }
+    .hamburger-icon,
+    .close-icon {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: block;
     }
   }
 }
