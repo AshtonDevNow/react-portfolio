@@ -36,7 +36,10 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Make this about where I'm from and Tech expreience.</p>
+          <p>
+            I have done some tech projects. Make this about where I'm from and
+            Tech expreience. In addition to other jobs.
+          </p>
           <p>
             Here can be about what other industries and countries I worked in.
             Link resume.
