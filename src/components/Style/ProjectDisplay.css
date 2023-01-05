@@ -45,3 +45,15 @@
   font-size: 60px;
   color: #3e497a;
 }
+
+@media screen and (max-width: 1200px) {
+  .project h1 {
+    margin-top: -180px;
+    margin-left: -25px;
+  }
+
+  .project img {
+    width: 300px;
+    border-radius: 10px;
+  }
+}
