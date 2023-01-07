@@ -37,32 +37,27 @@ const About = () => {
             />
           </h1>
           <p>
-            I’m a front-end developer capable of doing full stack web
-            development. I have worked on a few projects including this website
-            that can be seen in the portfolio section. These varied in and
-            languages and frameworks including Ruby on Rails, Javascript, Wechat
-            Devtools and many more. I have been working as a part - time free
-            lancer for the last year after completing the Le Wagon full stack
-            bootcamp, but ready to take my skills to next level to work and
-            learn with the best.{' '}
+            I am a skilled front-end developer with experience in full stack web
+            development. My portfolio includes projects using various languages
+            and frameworks such as Ruby on Rails, Javascript, and Wechat
+            Devtools. I recently completed the Le Wagon full stack bootcamp and
+            have been working as a part-time freelancer for the past year. I am
+            now looking to take my skills to the next level by working and
+            learning with the best.
           </p>
           <p>
-            My previous experience were not directly tech role, but definitely
-            involved having to use my knowledge. My current position as
-            Operations Manager for logistics company allowed me to use my
-            knowledge to introduce in programs to save time while and quality.
-            This involved allowing dispatchers to easily track customers freight
-            with accurate ETAs. A more stream line process of delivered freights
-            paperwork directly sent with pre-generated invoices to accounting
-            and much more.
+            In my current role as Operations Manager for a logistics company, I
+            utilized my tech skills to introduce programs that improved
+            efficiency and quality. This included implementing tools to track
+            customer freight with accurate ETAs and streamlining the delivery
+            paperwork process.
           </p>
           <p>
-            ’m very passionate about tech and how fast the world is changing and
-            I want to adapt to that change, to help develop the new innovations.
-            This passion along with my deverse experience of having to wear
-            multiple hats as an Operations Manager and Language Learning
-            Director at Walt Disney Company I will be able to adapt to any new
-            vision a company has.
+            I am passionate about technology and staying up-to-date with the
+            fast-changing tech industry. With my diverse background as an
+            Operations Manager and Language Learning Director at Walt Disney
+            Company, I am confident in my ability to adapt to any new vision a
+            company may have.
           </p>
         </div>
 
