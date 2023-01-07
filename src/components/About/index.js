@@ -37,16 +37,32 @@ const About = () => {
             />
           </h1>
           <p>
-            I have done some tech projects. Make this about where I'm from and
-            Tech expreience. In addition to other jobs.
+            I’m a front-end developer capable of doing full stack web
+            development. I have worked on a few projects including this website
+            that can be seen in the portfolio section. These varied in and
+            languages and frameworks including Ruby on Rails, Javascript, Wechat
+            Devtools and many more. I have been working as a part - time free
+            lancer for the last year after completing the Le Wagon full stack
+            bootcamp, but ready to take my skills to next level to work and
+            learn with the best.{' '}
           </p>
           <p>
-            Here can be about what other industries and countries I worked in.
-            Link resume.
+            My previous experience were not directly tech role, but definitely
+            involved having to use my knowledge. My current position as
+            Operations Manager for logistics company allowed me to use my
+            knowledge to introduce in programs to save time while and quality.
+            This involved allowing dispatchers to easily track customers freight
+            with accurate ETAs. A more stream line process of delivered freights
+            paperwork directly sent with pre-generated invoices to accounting
+            and much more.
           </p>
           <p>
-            This last paragraph can be about how I can adapt to the job and how
-            I use my free time to study Tech.
+            ’m very passionate about tech and how fast the world is changing and
+            I want to adapt to that change, to help develop the new innovations.
+            This passion along with my deverse experience of having to wear
+            multiple hats as an Operations Manager and Language Learning
+            Director at Walt Disney Company I will be able to adapt to any new
+            vision a company has.
           </p>
         </div>
 
