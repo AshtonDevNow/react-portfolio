@@ -51,7 +51,7 @@ const Contact = () => {
             idx={15}
           />
         </h1>
-        <p>This is to have content about best contact.</p>
+        <p>You can fill this form or email later at ashtondevnow@outlook.</p>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
             <ul>

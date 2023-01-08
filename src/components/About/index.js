@@ -37,16 +37,27 @@ const About = () => {
             />
           </h1>
           <p>
-            I have done some tech projects. Make this about where I'm from and
-            Tech expreience. In addition to other jobs.
+            I am a skilled front-end developer with experience in full stack web
+            development. My portfolio includes projects using various languages
+            and frameworks such as Ruby on Rails, Javascript, and Wechat
+            Devtools. I recently completed the Le Wagon full stack bootcamp and
+            have been working as a part-time freelancer for the past year. I am
+            now looking to take my skills to the next level by working and
+            learning with the best.
           </p>
           <p>
-            Here can be about what other industries and countries I worked in.
-            Link resume.
+            In my current role as Operations Manager for a logistics company, I
+            utilized my tech skills to introduce programs that improved
+            efficiency and quality. This included implementing tools to track
+            customer freight with accurate ETAs and streamlining the delivery
+            paperwork process.
           </p>
           <p>
-            This last paragraph can be about how I can adapt to the job and how
-            I use my free time to study Tech.
+            I am passionate about technology and staying up-to-date with the
+            fast-changing tech industry. With my diverse background as an
+            Operations Manager and Language Learning Director at Walt Disney
+            Company, I am confident in my ability to adapt to any new vision a
+            company may have.
           </p>
         </div>
 

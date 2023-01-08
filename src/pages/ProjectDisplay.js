@@ -17,6 +17,12 @@ function ProjectDisplay() {
       <p>
         <b>Description:</b> {project.description}
       </p>
+      <p>
+        <b>Website Link:</b> {project.website}
+      </p>
+      <p>
+        <b>GitHub link:</b> {project.github}
+      </p>
     </div>
   )
 }
