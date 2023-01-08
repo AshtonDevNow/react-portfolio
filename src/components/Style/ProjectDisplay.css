@@ -34,11 +34,13 @@
 }
 
 .project p {
-  font-size: 13px;
+  display: block;
+  margin-left: 70px;
+  margin-right: 10px;
+  font-size: 18px;
   color: #fff;
   font-family: sans-serif;
   font-weight: 300;
-  min-width: fit-content;
 }
 
 .project svg {
@@ -48,12 +50,16 @@
 
 @media screen and (max-width: 1200px) {
   .project h1 {
-    margin-top: -180px;
+    margin-top: 20px;
     margin-left: -25px;
   }
 
   .project img {
     width: 300px;
     border-radius: 10px;
+  }
+  .project p {
+    margin-left: 10px;
+    margin-right: 0px;
   }
 }
