@@ -1,13 +1,14 @@
-import Football from '../../assets/images/football.png'
+import BoredomBakeryLogo from '../../assets/images/bordembakery.png'
 import GitTheKit from '../../assets/images/gitthekit.png'
 import GiggleLogo from '../../assets/images/giggle.png'
 
 export const ProjectList = [
   {
     name: 'Boredom Bakery',
-    image: Football,
+    image: BoredomBakeryLogo,
     skills: 'JS, HTML, CSS',
-    description: 'A standard website for a local bakery.',
+    description:
+      'I was hired to make a website to display this bakeries products.  I used this as an opportunity to practice vanilla JS. ',
     website: 'pending',
     github: '',
   },
