@@ -9,8 +9,8 @@ export const ProjectList = [
     skills: 'JS, HTML, CSS',
     description:
       'I was hired to make a website to display this bakeries products.  I used this as an opportunity to practice vanilla JS. ',
-    website: 'pending',
-    github: '',
+    website: 'https://ashtondevnow.github.io/bbakery/',
+    github: 'https://github.com/AshtonDevNow/react-portfolio',
   },
   {
     name: 'Giggle',
