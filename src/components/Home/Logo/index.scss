@@ -10,28 +10,44 @@
   margin: auto;
   opacity: 0;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotate(30deg) !important;
-  }
+  // svg {
+  //   width: 100%;
+  //   height: auto;
+  //   bottom: 0;
+  //   transform: rotate(30deg) !important;
+  // }
 
   .solid-logo {
     position: absolute;
     top: auto;
     right: auto;
     bottom: auto;
-    left: 0;
+    left: -140px;
     margin: auto;
-    width: 100%;
+    width: 700px;
     opacity: 0;
-    transform: rotateZ(30deg);
+    // transform: rotateZ(30deg);
     z-index: 1;
   }
 }
-// Makes the outline
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10px;
+
+@media screen and (max-width: 1200px) {
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: -140px;
+    margin: auto;
+    width: 200px;
+    opacity: 0;
+    // transform: rotateZ(30deg);
+    z-index: 1;
+  }
 }
+
+// Makes the outline
+// .svg-container {
+//   stroke: #ffd700;
+//   stroke-width: 10px;
+// }
