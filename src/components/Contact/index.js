@@ -4,6 +4,9 @@ import { Marker, MapContainer, Popup, TileLayer } from 'react-leaflet'
 import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
+import Australia from '../../assets/images/Australian-flag.png'
+import Canada from '../../assets/images/Canadian-flag.png'
+
 import './index.scss'
 
 const Contact = () => {
@@ -51,6 +54,8 @@ const Contact = () => {
             idx={15}
           />
         </h1>
+        <p>Ashton Lee Bunn</p>
+        <p>Living currently between Australia and Canada</p>
         <p>You can fill this form or email later at ashtondevnow@outlook.</p>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
@@ -84,15 +89,17 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="info-map">
+      {/* <div className="info-map">
         Ashton
         <br />
-        Country
+        Living currently between Australia and Canada
         <br />
-        The location
-        <span>ashtondevnow@outlook.com</span>
-      </div>
+        <span>Contact me at ashtondevnow@outlook.com</span>
+      </div> */}
       <div className="map-wrap">
+        <img src={Australia} alt="Australian-flag" />
+        <img src={Canada} alt="Canadian-flag" />
+
         {/* <MapContainer center={[43.64216, 79.43378]} zoom={13}>
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <Marker position={[43.64216, 79.43378]}>
