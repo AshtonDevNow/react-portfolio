@@ -88,16 +88,24 @@
   }
 }
 .map-wrap {
+  display: none;
   background: rgba(8, 253, 216, 0.1);
   float: right;
   width: 53%;
   height: 100%;
 }
 
+.map-wrap img {
+  display: flex;
+
+  height: 350px;
+  width: 700px;
+}
+
 .leaflet-container {
   width: 100%;
   height: 100%;
-  position: relative;
+  // position: relative;
   opacity: 0;
   animation: backInRight;
   animation-fill-mode: forwards;
@@ -125,6 +133,10 @@
   }
 
   .info-map {
+    display: none;
+  }
+
+  .map-wrap {
     display: none;
   }
 }
