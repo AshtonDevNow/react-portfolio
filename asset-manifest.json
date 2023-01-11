@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e3fe46f1.css",
+    "main.js": "/react-portfolio/static/js/main.cdb41bf8.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/AshtonPortfolio.png": "/react-portfolio/static/media/AshtonPortfolio.eb87ffa3fb1624238fa2.png",
+    "static/media/bordembakery.png": "/react-portfolio/static/media/bordembakery.bf0878c708a75be7f2a1.png",
+    "static/media/gitthekit.png": "/react-portfolio/static/media/gitthekit.f9f618cc594df4a3e71d.png",
+    "static/media/giggle.png": "/react-portfolio/static/media/giggle.c97538402d7ced371d97.png",
+    "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/react-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/logo_sub.png": "/react-portfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
+    "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/react-portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff": "/react-portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/Australian-flag.png": "/react-portfolio/static/media/Australian-flag.40065ace2d8a55f1fd27.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.e3fe46f1.css.map": "/react-portfolio/static/css/main.e3fe46f1.css.map",
+    "main.cdb41bf8.js.map": "/react-portfolio/static/js/main.cdb41bf8.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3fe46f1.css",
+    "static/js/main.cdb41bf8.js"
+  ]
+}
