@@ -1,6 +1,6 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import Loader from 'react-loaders'
-import { Marker, MapContainer, Popup, TileLayer } from 'react-leaflet'
+// import { Marker, MapContainer, Popup, TileLayer } from 'react-leaflet'
 import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
@@ -10,7 +10,7 @@ import Canada from '../../assets/images/Canadian-flag.png'
 import './index.scss'
 
 const Contact = () => {
-  const [letterClass] = useState('text-animate')
+  // const [letterClass] = useState('text-animate')
   // Can't get this effect to work
   // useEffect(() => {
   //   return setTimeout(() => {
