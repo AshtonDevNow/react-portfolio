@@ -1,5 +1,5 @@
 import './index.scss'
-import LogoA from '../../assets/images/logoAshton.png'
+import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets//images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -20,8 +20,8 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={LogoA} alt="logo" />
-        {/* <img className="sub-logo" src={LogoSubtitle} alt="Ashton" /> */}
+        <img src={LogoS} alt="logo" />
+        <img className="sub-logo" src={LogoSubtitle} alt="Ashton" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
