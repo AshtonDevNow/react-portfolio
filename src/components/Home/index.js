@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+// import LogoTitle from '../../assets/images/logo-s.png'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import Loader from 'react-loaders'
 import './index.scss'
 
 const Home = () => {
-  const [letterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['A', 's', 'h', 't', 'o', 'n']
   const jobArray = [
     'w',
@@ -40,7 +40,6 @@ const Home = () => {
             <span className={`${letterClass} _12`}>i</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'</span>
             <span className={`${letterClass} _14`}>m</span>
             <span className={`${letterClass} _14`}> </span>
 
