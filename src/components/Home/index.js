@@ -7,7 +7,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass] = useState('text-animate')
   const nameArray = ['A', 's', 'h', 't', 'o', 'n']
   const jobArray = [
     'w',
