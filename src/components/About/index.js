@@ -7,7 +7,7 @@ import {
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase, faSheqel } from '@fortawesome/free-solid-svg-icons'
+import { faDatabase} from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import './index.scss'
 
