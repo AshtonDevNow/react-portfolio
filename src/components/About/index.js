@@ -1,12 +1,8 @@
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faAngular,
-  faBootstrap,
   faCss3,
-  faDocker,
   faGitAlt,
-  faGithub,
   faHtml5,
   faJsSquare,
   faReact,
